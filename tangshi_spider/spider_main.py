@@ -5,7 +5,7 @@ import url_manager
 
 
 class SpiderMain(object):
-    def __init__(self):
+    def __init__(self): # 123
         self.urls = url_manager.UrlManager()    # url管理器
         self.downloader = html_downloader.HtmlDownloader()  # url下载器
         self.parser = html_parser.HtmlParser()    # url解析器
